@@ -1,5 +1,0 @@
-for i in {j..z}
-do
-echo "the count is  $i"
-done
- 

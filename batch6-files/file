@@ -1,3 +1,0 @@
-regina
-keerthi
-pooj
