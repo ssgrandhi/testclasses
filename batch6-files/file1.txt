@@ -1,0 +1,4 @@
+This is file1.txt
+Going froward to commit
+Added some lines from server force fully
+adding new line

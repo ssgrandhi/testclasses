@@ -1,0 +1,4 @@
+This is file2
+No I do not want to go and commit
+Working with git diff
+Some change in file 2 for git pull

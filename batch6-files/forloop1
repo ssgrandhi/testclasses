@@ -1,0 +1,5 @@
+for i in {p..g}
+do
+echo "count ic $i"
+done
+

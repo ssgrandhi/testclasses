@@ -1,0 +1,9 @@
+
+COUNT=1	 				 # Initialized condition
+until [ $COUNT -ge 2 ] 		 # False Logic 
+do
+  echo "The COUNT value is $COUNT"
+  COUNT=`expr $COUNT + 1` 		 # Condition Modifier
+done
+ 
+ 

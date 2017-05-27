@@ -1,0 +1,9 @@
+#!/bin/bash
+#purose :to work with shell variable
+#ip:
+#op:
+#version:
+##########################
+CMD=/bin/ls
+echo "the value of \$CMD is $CMD"
+

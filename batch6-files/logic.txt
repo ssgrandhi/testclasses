@@ -1,0 +1,31 @@
+
+#!/bin/bash
+#purpose:working into string file
+#########
+# working with logicl tst
+MARKS=$1
+if [ ! $MARKS ];then
+echo "pls enter the marks"
+echo "usage $0 <marks>"
+exit
+fi
+if [ $MARKS -gt 100 -o $MARKS -lt 1 ]; then
+echo"srry,marks should be in 1 to 100"
+exit
+fi
+if [  $MARKS -gt 65 -a  $MARKS -lt 100 ]; then
+echo "studentrs:first class"
+
+elif [  $MARKS  -gt 55 -a $MARKS  -lt 64 ]; then
+echo "student rs:second cls"
+
+elif [ $MARKS  -gt 45  -a $MARKS  -lt 54 ]; then
+echo "student rs:3rd cls"
+else
+echo "stdnt rs:fail"
+
+fi
+
+
+
+

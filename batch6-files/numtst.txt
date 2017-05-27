@@ -1,0 +1,16 @@
+#!/bin/bash
+#purpose:working into number file
+#########
+echo "enter the marks into screen"
+MARKS=75
+read MARKS  
+
+if [ $MARKS -gt 70 ];then
+echo "student resu:first cls"
+elif [ $MARKS -gt 80 ];then
+echo "stnt rs:2nd class"
+elif [ $MARKS -ge 50 -o $MARKS -le 50 ];then
+echo "this is 3rd cls"
+else
+echo "stdntrs:fal"
+fi
